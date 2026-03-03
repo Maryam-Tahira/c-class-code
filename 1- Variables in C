@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    //variable: variable is a memory location that stores some data 
+     
+    int a=12;
+    printf("hello world\n");// printf= output function , \n = next line 
+    printf("Maryam"); 
+    printf("\n");
+    printf("%d",a*100);
+
+    
+}
