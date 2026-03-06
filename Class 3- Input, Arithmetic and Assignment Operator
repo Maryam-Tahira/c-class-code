@@ -1,0 +1,29 @@
+//input & Arithmatic & Assignment op: 
+
+#include <stdio.h>
+
+int main()
+{
+    int a=12;// direct assign 
+    
+    printf("%d",a);
+    
+    int b;
+    printf("enter the value of b: ");
+    scanf("%d",&b);
+    printf("output: %d",b);
+    float c;
+    scanf("%f",&c);
+    printf("%.2lf",c);
+    
+    //operators: symbol 
+    //arithmatic op: +, - , * , / , % 
+     int x=12, y=20;
+     printf("%d\n",x+y);// 32 
+     printf("%d\n",y-x); //  8 
+     printf("%d\n",x*y); //240
+     printf("%f\n",y/x);//1 
+     printf("%d\n",y%x);//8 
+
+    return 0;
+}
