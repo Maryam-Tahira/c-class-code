@@ -1,0 +1,76 @@
+/* Class-06 - conditional statement= condition  used ans
+if else ,
+if - else if -else
+
+Q1- whether a number is positive or neg? 
+q2- input 2 number , which one is bigger
+q3-even or odd
+q4- pos , neg , 0
+q5- grade system
+q6- 3 number bigger 
+
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    1st-4th question
+    int a;
+    scanf("%d",&a);
+    if(a>=0)
+    {
+        printf("%d is positive",a);
+    }
+    // else if(a==0)
+    // {
+    //     printf("a is 0 value",a);
+    // }
+    else{
+        printf("%d is negative",a);
+    }
+    
+    2nd question , 6th 
+    int b,c,d;
+    scanf("%d%d%d",&b,&c,&d);
+    if(b>c&&b>d)
+    {
+        printf("b is bigger");
+    
+    }
+    else if(c>b&&c>d)
+    {
+        printf("c is bigger");
+    }
+
+    else{
+        printf("d is bigger");
+    }
+    
+    even odd
+    int x;
+    x=11;
+    if(x%2==0)
+    {
+        printf("even");
+    }
+    else{
+        printf("odd");
+    }
+    //small gradings system
+    int n;
+    scanf("%d",&n);
+    if(n>=80&&n<=100)
+    {
+        printf("A+");
+    }
+    if(n<80&&n>=75)
+    {
+        printf("A");
+    }
+    
+    
+    
+
+    return 0;
+}
