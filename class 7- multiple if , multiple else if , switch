@@ -1,0 +1,85 @@
+// Class 07->
+#include <stdio.h>
+
+int main() {
+    // IF ELSE , switch
+    // marking system :
+    int n;
+    scanf("%d",&n);
+    if(n<=100&&n>=80)
+    {
+        printf("A+");
+    }
+    else if(n<=79&&n>=75)
+    {
+        printf("A");
+    }
+    else if(n<=74&&n>=70)
+    {
+        printf("A-");
+    }
+    else if(n<=69&&n>=60)
+    {
+        printf("B+");
+    }
+    else{
+        printf("Fail");
+    }
+    
+    char d;
+    scanf("%c",&d); //char input
+    
+    if(d=='s')
+    printf("saturday\n");
+    else if(d=='S')
+    printf("sunday\n");
+    else if(d=='m')
+    printf("monday\n");
+    else if(d=='t')
+    printf("tuesday\n");
+    else if(d=='w')
+    printf("wednesday\n");
+    else if(d=='T')
+    printf("thursday\n");
+    else if(d=='f')
+    printf("friday\n");
+    else {
+        printf("invalid input");
+    }
+     int a=10;
+    
+    if(a==10)
+    printf("equal\n");
+    
+  else if(a>5)
+    printf("greater\n");
+    else if(a!=12) //10!=12
+    printf("not equal\n");
+    //switch 
+    
+    int n;
+    scanf("%d",&n); //char input
+    switch(n){
+        case 1:
+        printf("Saturday");
+        break;
+        
+        case 2:
+        printf("Sunday");
+        break;
+        
+        case 3:
+        printf("Monday");
+        break;
+        default:
+        printf("invalid");
+        
+        
+    }
+    
+    
+    
+    
+
+    return 0;
+}
