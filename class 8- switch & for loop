@@ -1,0 +1,53 @@
+/*class 08
+switch , loop
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    //switch-> conditional statement 
+    
+    //age -> 18 = driving licence ;
+    
+    //if(age>=18){ can drive}
+    
+    
+    // int age=18;
+    // // if(age>=18)
+    // // {
+    // //     printf("can drive");
+    // // }
+    // switch(age){
+    //     case 18:
+    //       printf("can drive");
+    //       break;
+    //     case 80:
+    //       printf("too much old");
+    //       break;
+    //     default:
+    //       printf("can't drive");
+        
+    // }
+    
+    //loop-> to repeat some part until the contion/limitation is fulfilled.
+    //loop -> for, while , do while ;
+    // for(initialization; condition ; updation)
+    
+    //1-5 print -> 
+    
+    
+    // for(int i=1;i<=5;i++)
+    // {
+    //     printf("%d\n",i);
+    // }
+    
+    //5-1->
+    for(int i=5;i>=1;i--)
+    {
+        printf("%d\n",i);
+    }
+
+
+    return 0;
+}
