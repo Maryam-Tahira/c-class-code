@@ -1,0 +1,67 @@
+/** class 09 - loops cl-02
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    // loop -> for , while , do while 
+    // for(initialization;condition;updation){ work;}
+    
+    //while -> 
+   //initialization;
+   //while(condition)
+   //{ work;
+   //updation;}
+   
+   /*initialization
+   do{
+       work;
+       updation;
+   }while(condition);
+   */
+   
+   /*
+   1-5 print -> 
+    
+    
+    for(int i=1;i<=5;i++)
+     {
+        printf("%d\n",i);
+     }
+   */
+//   int j=1;// j=6
+//   while(j<=5) // 6<=5
+//   {
+//       printf("%d\n",j); //5
+//       j++; //6
+//   }
+
+    //  int j=1;
+    //  do{
+    //   printf("%d\n",j); 
+    //   j++; 
+    // }while(j<=5);
+   // user input , input<1 , input->output 
+   //while loop->
+    // int z;
+    // scanf("%d",&z);
+    // while(z<1)
+    // {
+    //     printf("%d",z);
+    //     z++;
+    // }
+    
+    // do while ->
+    int z;
+    scanf("%d",&z);
+    
+    do{
+        printf("%d",z);
+        z++;
+    }while(z<1);
+    
+
+
+    return 0;
+}
