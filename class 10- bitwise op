@@ -1,0 +1,30 @@
+/*class 10-> bitwise operator 
+&, | , ~ , ^ , << , >> 
+
+*/
+
+#include <stdio.h>
+
+int main() {
+    unsigned int a = 5;  // 0101 in bin
+    unsigned int b = 3;  // 0011 in bin
+
+    // AND
+    printf("a & b = %d\n", a & b);   // 0101 & 0011 = 0001 -> 1
+
+    // OR
+    printf("a | b = %d\n", a | b);   // 0101 | 0011 = 0111 -> 7
+
+    // XOR
+    printf("a ^ b = %d\n", a ^ b);   // 0101 ^ 0011 = 0110 -> 6
+
+    // NOT
+    printf("~a = %d\n", ~a);         // ~0101 = 1010 
+    // Left Shift
+    printf("a << 1 = %d\n", a << 1); // 0101 << 1 = 1010 -> 10
+
+    // Right Shift
+    printf("a >> 1 = %d\n", a >> 1); // 0101 >> 1 = 0010 -> 2
+
+    return 0;
+}
