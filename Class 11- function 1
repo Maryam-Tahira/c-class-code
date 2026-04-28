@@ -1,0 +1,31 @@
+/* Function->A function is a block of code 
+that performs a specific task and can be called from other parts of the program
+
+4 type -> 1. no return no parameter 
+2. no return with parameter 
+3. with return no parameter 
+4.with return with pawameter
+
+*/
+
+#include <stdio.h>
+
+void fun2()
+{
+    printf("world \n");
+    
+}
+
+void fun1()
+{
+    printf("hello\n");
+    // fun2();
+    
+}
+int main()
+{
+    fun1();
+    fun2();
+
+    return 0; 
+}
