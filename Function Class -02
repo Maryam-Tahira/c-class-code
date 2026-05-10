@@ -1,0 +1,74 @@
+/* Function->A function is a block of code 
+that performs a specific task and can be called from other parts of the program
+
+4 type -> 1. no return no parameter 
+2. no return with parameter 
+3. with return no parameter 
+4. with return with parameter
+
+*/
+#include <stdio.h>
+// main function e duita value ase, sei duitar sum ami onno
+// function er maddhome dekhte chai.
+
+// no return no parameter: 
+void f5()
+{
+    int a=2, b=3;
+    int sum=a+b;
+    printf("%d",sum);
+}
+int main(){
+    f5();
+}
+
+// no return with parameter type function->
+// void f1(int x, int y) // parameter
+// {
+//     int sum= x+y;
+//     printf("%d",sum);
+// }
+// int main() {
+//     int a=2, b=3;
+//     f1(a,b);//argument
+
+//     return 0;
+// }
+
+
+// with return no parameter: 
+
+// int f2(){
+//     int a=5 , b=3;
+//     int x=a+b;
+//     return x;
+// }
+// int main()
+// {
+//     int c=f2();
+// 
+//     printf("%d",c);
+//     // printf("%d",f2());
+    
+// }
+
+
+//with return with parameter type function->
+
+int f1(int x, int y) // parameter
+{
+    int sum= x+y;
+    return sum;
+}
+int main() {
+    int a=2, b=3;
+    int c= f1(a,b);//argument
+    printf("%d",c);
+
+
+    return 0;
+}
+
+
+
+
