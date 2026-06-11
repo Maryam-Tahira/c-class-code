@@ -1,0 +1,33 @@
+/*pointer-> a varible that stores the memory adress of another variable 
+
+
+****************/
+
+#include <stdio.h>
+
+int main()
+{
+    // int a;
+    // scanf("%d",&a);
+    // int *p=&a;
+    // printf("%p\n",&a);
+    // printf("\n%p",p);
+    // printf("%d",*p);
+    
+    int b;
+    int *x=&b;
+    *x=10;
+    printf("%d\n",b);
+    *x=*x+5;
+    printf("%d\n",b);
+    if(*x>10){
+        printf("yes");
+    }
+    
+    
+    
+    
+    
+
+    return 0;
+}
