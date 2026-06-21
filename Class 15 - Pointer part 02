@@ -1,0 +1,31 @@
+// Pointer Class 02
+//call by value and call by reference:
+#include <stdio.h>
+//call by value->
+// void m1(int a)
+// {
+//     a=a*a;//a=20*20, a=400
+//     printf("function value: %d\n",a);//400
+// }
+// int main() {
+//     int a=20;
+//     m1(a);
+//     printf("main value: %d",a);// 20
+//     return 0;
+// }
+
+//call by reference-> 
+
+void m1(int *a)
+{
+    *a=(*a)*(*a);//a=20*20, a=400
+    printf("function value: %d\n",*a);//400
+}
+int main() {
+    int a=20;
+    m1(&a);
+    printf("main value: %d",a);// 20 or 400
+    return 0;
+}
+
+
