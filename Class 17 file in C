@@ -1,0 +1,30 @@
+/*file -> types:text file->  .txt , .c , .cpp
+
+binary data-> .mp3, .mp4 
+
+writing , read 
+*/
+
+#include <stdio.h>
+
+int main()
+{
+//   FILE *a;
+//   char s[20];
+//   a=fopen("text1.txt","r");
+//   fgets(s,20,a);
+//   printf("%s",s);
+//   fclose(a);
+   
+//   FILE *w1;
+//   w1=fopen("text1.txt","w");
+//   fprintf(w1,"Maryam");
+//   fclose(w1);
+   
+//   FILE *c;
+//   c=fopen("text1.txt","a");
+//   fprintf(c, " Tahira");
+//   fclose(c);
+
+    return 0;
+}
